@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>스터디카페의 공부 시작과 종료를 위해 블루투스 권한이 필요해요.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>사용할 스터디카페의 모바일 기기를 특정하기 위해 권한이 필요해요.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
