@@ -80,6 +80,15 @@ class ViewController: UIViewController, CBCentralManagerDelegate {
         // Central Manager 초기화
         centralManager = CBCentralManager(delegate: self, queue: nil)
     }
+    @IBAction func tappedCenteralButton(_ sender: Any) {
+        let vc = CentralViewController()
+        self.present(vc, animated: true)
+    }
+    
+    @IBAction func tappedPeripheral(_ sender: Any) {
+        let vc = PeripheralViewController()
+        self.present(vc, animated: true)
+    }
 }
 
 extension ViewController: UITableViewDataSource {

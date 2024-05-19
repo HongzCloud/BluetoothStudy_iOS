@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ED654C72BFA4B6E00E717D6 /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED654C62BFA4B6E00E717D6 /* PeripheralViewController.swift */; };
+		1ED654C92BFA4B8400E717D6 /* CentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED654C82BFA4B8400E717D6 /* CentralViewController.swift */; };
 		1EDCAA232BEF35090046C4C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDCAA222BEF35090046C4C6 /* AppDelegate.swift */; };
 		1EDCAA252BEF35090046C4C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDCAA242BEF35090046C4C6 /* SceneDelegate.swift */; };
 		1EDCAA272BEF35090046C4C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDCAA262BEF35090046C4C6 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1ED654C62BFA4B6E00E717D6 /* PeripheralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		1ED654C82BFA4B8400E717D6 /* CentralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralViewController.swift; sourceTree = "<group>"; };
 		1EDCAA1F2BEF35090046C4C6 /* BluetoothStudy_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothStudy_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDCAA222BEF35090046C4C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EDCAA242BEF35090046C4C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				1EDCAA222BEF35090046C4C6 /* AppDelegate.swift */,
 				1EDCAA242BEF35090046C4C6 /* SceneDelegate.swift */,
 				1EDCAA262BEF35090046C4C6 /* ViewController.swift */,
+				1ED654C82BFA4B8400E717D6 /* CentralViewController.swift */,
+				1ED654C62BFA4B6E00E717D6 /* PeripheralViewController.swift */,
 				1EDCAA282BEF35090046C4C6 /* Main.storyboard */,
 				1EDCAA2B2BEF350B0046C4C6 /* Assets.xcassets */,
 				1EDCAA2D2BEF350B0046C4C6 /* LaunchScreen.storyboard */,
@@ -145,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED654C72BFA4B6E00E717D6 /* PeripheralViewController.swift in Sources */,
 				1EDCAA272BEF35090046C4C6 /* ViewController.swift in Sources */,
 				1EDCAA232BEF35090046C4C6 /* AppDelegate.swift in Sources */,
 				1EDCAA3A2BEF40930046C4C6 /* CustomTableViewCell.swift in Sources */,
+				1ED654C92BFA4B8400E717D6 /* CentralViewController.swift in Sources */,
 				1EDCAA252BEF35090046C4C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
